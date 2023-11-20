@@ -1,0 +1,21 @@
+{
+    "name": "composer/porroject",
+    "description": "Test TDK",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "ochorocho/tdk-composer-plugin": "@dev"
+    },
+    "repositories": {
+        "tdk-package": {
+            "type": "path",
+            "url": "../../../../../*"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ochorocho/tdk-composer-plugin": true
+        }
+    }
+}
